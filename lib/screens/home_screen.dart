@@ -1,10 +1,11 @@
-import 'package:bmi/module/bmi_logic.dart';
-import 'package:bmi/screens/result.dart';
-import 'package:bmi/widgets/calculate.dart';
-import 'package:bmi/widgets/custom.dart';
-import 'package:bmi/widgets/gender.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/module/bmi_logic.dart';
+import 'package:flutter_application_1/screens/result.dart';
+import 'package:flutter_application_1/widgets/calculate.dart';
+import 'package:flutter_application_1/widgets/custom.dart';
+import 'package:flutter_application_1/widgets/gender.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({super.key});

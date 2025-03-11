@@ -1,4 +1,4 @@
-name: bmi
+name: flutter_application_1
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.0
+  sdk: ^3.6.1
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -58,9 +58,46 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/unnamed.png
+    - assets/images/numbers/number_one.png
+    - assets/images/numbers/number_two.png
+    - assets/images/numbers/number_three.png
+    - assets/images/numbers/number_four.png
+    - assets/images/numbers/number_five.png
+    - assets/images/numbers/number_six.png
+    - assets/images/numbers/number_seven.png
+    - assets/images/numbers/number_eight.png
+    - assets/images/numbers/number_nine.png
+    - assets/images/numbers/number_ten.png
+
+    - assets/images/family/family_father.png
+    - assets/images/family/family_mother.png
+    - assets/images/family/family_son.png
+    - assets/images/family/family_daughter.png
+    - assets/images/family/family_older_brother.png
+    - assets/images/family/family_older_sister.png
+    - assets/images/family/family_younger_brother.png
+    - assets/images/family/family_younger_sister.png
+    - assets/images/family/family_grandmother.png
+    - assets/images/family/family_grandfather.png
+
+    - assets/images/colors/color_red.png
+    - assets/images/colors/color_green.png
+    - assets/images/colors/color_brown.png
+    - assets/images/colors/color_gray.png
+    - assets/images/colors/color_black.png
+    - assets/images/colors/color_white.png
+    - assets/images/colors/color_dusty_yellow.png
+    - assets/images/colors/yellow.png
+
+
+    - assets/male.png
+    - assets/female.png
+    
+    
+    
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
